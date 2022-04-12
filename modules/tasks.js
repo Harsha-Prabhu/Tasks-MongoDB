@@ -4,11 +4,11 @@ const Schema = mongoose.Schema;
 const taskSchema = new Schema({
     description:{
         required: true,
-        type: 'string'
+        type: String
     },
     completed:{
         required: true,
-        type: 'boolean'
+        type: Boolean
     }
 },{timestamps:true});
 
